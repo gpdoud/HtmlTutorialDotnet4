@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Side by side divs</title>
+        <style>
+            div {
+                border: 1px solid silver;
+            }
+            #leftdiv, #rightdiv {
+                width: 49%;
+                display: inline-block;
+            }
+            #rightdiv {
+                text-align: right;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="leftdiv">
+            <p>This is the left div</p>
+        </div>
+        <div id="rightdiv">            
+            <p>This is the right div</p>
+        </div>
+        <div>
+            <p>this div should not be side-by-side</p>
+            <p>This is another paragraph</p>
+        </div>
+    </body>
+</html>
